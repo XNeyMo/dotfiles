@@ -1,0 +1,546 @@
+2024-03-06T01:10:28.606Z [Modules] Modules initializing
+2024-03-06T01:10:28.606Z [Modules] Distribution: remote
+2024-03-06T01:10:28.606Z [Modules] Host updates: enabled
+2024-03-06T01:10:28.606Z [Modules] Module updates: enabled
+2024-03-06T01:10:28.607Z [Modules] Module install path: /home/xneymo/.config/discord/0.0.43/modules
+2024-03-06T01:10:28.607Z [Modules] Module installed file path: /home/xneymo/.config/discord/0.0.43/modules/installed.json
+2024-03-06T01:10:28.607Z [Modules] Module download path: /home/xneymo/.config/discord/0.0.43/modules/pending
+2024-03-06T01:10:29.031Z [Modules] Bootstrapping...
+2024-03-06T01:10:29.032Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-03-06T01:10:29.039Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-03-06T01:10:29.040Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-03-06T01:10:29.043Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-03-06T01:10:29.043Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-03-06T01:10:29.045Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-03-06T01:10:29.045Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-03-06T01:10:29.047Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-03-06T01:10:29.048Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-03-06T01:10:29.050Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-03-06T01:10:29.051Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2024-03-06T01:10:29.051Z [Modules] Checking for host updates.
+2024-03-06T01:10:29.479Z [Modules] Host is up to date.
+2024-03-06T01:10:29.479Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-03-06T01:10:29.889Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-03-06T01:10:29.890Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-03-06T01:10:29.890Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-03-06T01:10:29.890Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-03-06T01:10:29.890Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-03-06T01:10:29.891Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-03-06T01:10:29.891Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip
+2024-03-06T01:10:31.031Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 1%
+2024-03-06T01:10:31.108Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 2%
+2024-03-06T01:10:31.144Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 3%
+2024-03-06T01:10:31.167Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 4%
+2024-03-06T01:10:31.192Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 5%
+2024-03-06T01:10:31.205Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 6%
+2024-03-06T01:10:31.215Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 7%
+2024-03-06T01:10:31.228Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 8%
+2024-03-06T01:10:31.235Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 9%
+2024-03-06T01:10:31.247Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 10%
+2024-03-06T01:10:31.253Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 11%
+2024-03-06T01:10:31.262Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 12%
+2024-03-06T01:10:31.267Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 13%
+2024-03-06T01:10:31.273Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 14%
+2024-03-06T01:10:31.281Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 15%
+2024-03-06T01:10:31.283Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 16%
+2024-03-06T01:10:31.287Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 17%
+2024-03-06T01:10:31.294Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 18%
+2024-03-06T01:10:31.298Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 19%
+2024-03-06T01:10:31.300Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 20%
+2024-03-06T01:10:31.306Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 21%
+2024-03-06T01:10:31.308Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 22%
+2024-03-06T01:10:31.312Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 23%
+2024-03-06T01:10:31.315Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 24%
+2024-03-06T01:10:31.318Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 25%
+2024-03-06T01:10:31.322Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 26%
+2024-03-06T01:10:31.326Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 28%
+2024-03-06T01:10:31.331Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 29%
+2024-03-06T01:10:31.333Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 30%
+2024-03-06T01:10:31.336Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 31%
+2024-03-06T01:10:31.341Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 34%
+2024-03-06T01:10:31.348Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 36%
+2024-03-06T01:10:31.350Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 37%
+2024-03-06T01:10:31.356Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 39%
+2024-03-06T01:10:31.359Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 42%
+2024-03-06T01:10:31.363Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 43%
+2024-03-06T01:10:31.365Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 45%
+2024-03-06T01:10:31.367Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 46%
+2024-03-06T01:10:31.370Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 47%
+2024-03-06T01:10:31.373Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 49%
+2024-03-06T01:10:31.375Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 51%
+2024-03-06T01:10:31.378Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 52%
+2024-03-06T01:10:31.380Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 54%
+2024-03-06T01:10:31.382Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 57%
+2024-03-06T01:10:31.385Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 59%
+2024-03-06T01:10:31.388Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 61%
+2024-03-06T01:10:31.391Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 62%
+2024-03-06T01:10:31.393Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 65%
+2024-03-06T01:10:31.395Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 68%
+2024-03-06T01:10:31.402Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 70%
+2024-03-06T01:10:31.405Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 73%
+2024-03-06T01:10:31.407Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 76%
+2024-03-06T01:10:31.411Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 79%
+2024-03-06T01:10:31.413Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 80%
+2024-03-06T01:10:31.415Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 83%
+2024-03-06T01:10:31.417Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 86%
+2024-03-06T01:10:31.419Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 88%
+2024-03-06T01:10:31.421Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 89%
+2024-03-06T01:10:31.423Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 92%
+2024-03-06T01:10:31.425Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 94%
+2024-03-06T01:10:31.427Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 95%
+2024-03-06T01:10:31.428Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 99%
+2024-03-06T01:10:31.429Z [Modules] Streaming discord_desktop_core@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 100%
+2024-03-06T01:10:31.433Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-03-06T01:10:31.433Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip
+2024-03-06T01:10:31.607Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 3%
+2024-03-06T01:10:31.609Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 7%
+2024-03-06T01:10:31.610Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 14%
+2024-03-06T01:10:31.612Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 17%
+2024-03-06T01:10:31.613Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 18%
+2024-03-06T01:10:31.616Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 20%
+2024-03-06T01:10:31.619Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 23%
+2024-03-06T01:10:31.620Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 28%
+2024-03-06T01:10:31.621Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 34%
+2024-03-06T01:10:31.625Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 38%
+2024-03-06T01:10:31.627Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 44%
+2024-03-06T01:10:31.631Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 47%
+2024-03-06T01:10:31.632Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 55%
+2024-03-06T01:10:31.634Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 59%
+2024-03-06T01:10:31.636Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 63%
+2024-03-06T01:10:31.638Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 66%
+2024-03-06T01:10:31.640Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 68%
+2024-03-06T01:10:31.643Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 71%
+2024-03-06T01:10:31.646Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 80%
+2024-03-06T01:10:31.648Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 82%
+2024-03-06T01:10:31.651Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 85%
+2024-03-06T01:10:31.662Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 88%
+2024-03-06T01:10:31.664Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 89%
+2024-03-06T01:10:31.681Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 92%
+2024-03-06T01:10:31.682Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 93%
+2024-03-06T01:10:31.685Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 96%
+2024-03-06T01:10:31.731Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 99%
+2024-03-06T01:10:31.732Z [Modules] Streaming discord_erlpack@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 100%
+2024-03-06T01:10:31.734Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-03-06T01:10:31.734Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip
+2024-03-06T01:10:31.938Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 1%
+2024-03-06T01:10:31.941Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 2%
+2024-03-06T01:10:31.944Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 3%
+2024-03-06T01:10:31.945Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 4%
+2024-03-06T01:10:31.953Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 5%
+2024-03-06T01:10:31.957Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 8%
+2024-03-06T01:10:31.962Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 9%
+2024-03-06T01:10:31.963Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 10%
+2024-03-06T01:10:31.965Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 11%
+2024-03-06T01:10:31.968Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 12%
+2024-03-06T01:10:31.969Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 13%
+2024-03-06T01:10:31.976Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 14%
+2024-03-06T01:10:31.977Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 15%
+2024-03-06T01:10:31.979Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 16%
+2024-03-06T01:10:31.999Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 17%
+2024-03-06T01:10:32.005Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 18%
+2024-03-06T01:10:32.012Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 19%
+2024-03-06T01:10:32.019Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 20%
+2024-03-06T01:10:32.023Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 21%
+2024-03-06T01:10:32.025Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 22%
+2024-03-06T01:10:32.027Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 23%
+2024-03-06T01:10:32.033Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 24%
+2024-03-06T01:10:32.037Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 25%
+2024-03-06T01:10:32.040Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 26%
+2024-03-06T01:10:32.043Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 27%
+2024-03-06T01:10:32.045Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 28%
+2024-03-06T01:10:32.049Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 29%
+2024-03-06T01:10:32.053Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 30%
+2024-03-06T01:10:32.055Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 31%
+2024-03-06T01:10:32.059Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 32%
+2024-03-06T01:10:32.061Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 33%
+2024-03-06T01:10:32.064Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 34%
+2024-03-06T01:10:32.070Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 35%
+2024-03-06T01:10:32.072Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 36%
+2024-03-06T01:10:32.077Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 37%
+2024-03-06T01:10:32.084Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 38%
+2024-03-06T01:10:32.091Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 39%
+2024-03-06T01:10:32.093Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 40%
+2024-03-06T01:10:32.094Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 41%
+2024-03-06T01:10:32.097Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 42%
+2024-03-06T01:10:32.101Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 43%
+2024-03-06T01:10:32.117Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 44%
+2024-03-06T01:10:32.123Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 45%
+2024-03-06T01:10:32.124Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 46%
+2024-03-06T01:10:32.127Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 47%
+2024-03-06T01:10:32.128Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 48%
+2024-03-06T01:10:32.149Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 49%
+2024-03-06T01:10:32.151Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 50%
+2024-03-06T01:10:32.156Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 51%
+2024-03-06T01:10:32.161Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 52%
+2024-03-06T01:10:32.162Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 53%
+2024-03-06T01:10:32.165Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 54%
+2024-03-06T01:10:32.167Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 55%
+2024-03-06T01:10:32.172Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 56%
+2024-03-06T01:10:32.174Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 57%
+2024-03-06T01:10:32.176Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 58%
+2024-03-06T01:10:32.181Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 59%
+2024-03-06T01:10:32.182Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 60%
+2024-03-06T01:10:32.184Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 61%
+2024-03-06T01:10:32.187Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 62%
+2024-03-06T01:10:32.193Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 63%
+2024-03-06T01:10:32.196Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 64%
+2024-03-06T01:10:32.252Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 65%
+2024-03-06T01:10:32.256Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 66%
+2024-03-06T01:10:32.257Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 67%
+2024-03-06T01:10:32.262Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 68%
+2024-03-06T01:10:32.264Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 69%
+2024-03-06T01:10:32.266Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 70%
+2024-03-06T01:10:32.268Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 71%
+2024-03-06T01:10:32.271Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 72%
+2024-03-06T01:10:32.275Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 73%
+2024-03-06T01:10:32.280Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 74%
+2024-03-06T01:10:32.281Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 75%
+2024-03-06T01:10:32.282Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 76%
+2024-03-06T01:10:32.285Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 77%
+2024-03-06T01:10:32.294Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 78%
+2024-03-06T01:10:32.298Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 80%
+2024-03-06T01:10:32.325Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 81%
+2024-03-06T01:10:32.343Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 82%
+2024-03-06T01:10:32.358Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 83%
+2024-03-06T01:10:32.360Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 84%
+2024-03-06T01:10:32.365Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 85%
+2024-03-06T01:10:32.366Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 86%
+2024-03-06T01:10:32.368Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 87%
+2024-03-06T01:10:32.370Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 88%
+2024-03-06T01:10:32.374Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 89%
+2024-03-06T01:10:32.376Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 90%
+2024-03-06T01:10:32.380Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 91%
+2024-03-06T01:10:32.381Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 92%
+2024-03-06T01:10:32.384Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 93%
+2024-03-06T01:10:32.392Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 94%
+2024-03-06T01:10:32.397Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 95%
+2024-03-06T01:10:32.398Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 96%
+2024-03-06T01:10:32.401Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 97%
+2024-03-06T01:10:32.404Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 98%
+2024-03-06T01:10:32.415Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 99%
+2024-03-06T01:10:32.418Z [Modules] Streaming discord_spellcheck@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 100%
+2024-03-06T01:10:32.421Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-03-06T01:10:32.421Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip
+2024-03-06T01:10:32.641Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 2%
+2024-03-06T01:10:32.643Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 3%
+2024-03-06T01:10:32.644Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 5%
+2024-03-06T01:10:32.647Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 7%
+2024-03-06T01:10:32.653Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 9%
+2024-03-06T01:10:32.656Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 11%
+2024-03-06T01:10:32.658Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 14%
+2024-03-06T01:10:32.659Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 16%
+2024-03-06T01:10:32.662Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 17%
+2024-03-06T01:10:32.664Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 19%
+2024-03-06T01:10:32.665Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 21%
+2024-03-06T01:10:32.667Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 23%
+2024-03-06T01:10:32.669Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 24%
+2024-03-06T01:10:32.673Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 28%
+2024-03-06T01:10:32.679Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 30%
+2024-03-06T01:10:32.680Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 32%
+2024-03-06T01:10:32.681Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 34%
+2024-03-06T01:10:32.683Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 36%
+2024-03-06T01:10:32.684Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 38%
+2024-03-06T01:10:32.687Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 41%
+2024-03-06T01:10:32.692Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 43%
+2024-03-06T01:10:32.695Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 47%
+2024-03-06T01:10:32.698Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 49%
+2024-03-06T01:10:32.699Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 52%
+2024-03-06T01:10:32.701Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 54%
+2024-03-06T01:10:32.704Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 57%
+2024-03-06T01:10:32.707Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 59%
+2024-03-06T01:10:32.712Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 61%
+2024-03-06T01:10:32.718Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 63%
+2024-03-06T01:10:32.720Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 65%
+2024-03-06T01:10:32.721Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 67%
+2024-03-06T01:10:32.725Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 70%
+2024-03-06T01:10:32.734Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 72%
+2024-03-06T01:10:32.736Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 74%
+2024-03-06T01:10:32.737Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 76%
+2024-03-06T01:10:32.739Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 78%
+2024-03-06T01:10:32.741Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 80%
+2024-03-06T01:10:32.743Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 82%
+2024-03-06T01:10:32.745Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 84%
+2024-03-06T01:10:32.747Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 86%
+2024-03-06T01:10:32.748Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 88%
+2024-03-06T01:10:32.751Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 91%
+2024-03-06T01:10:32.753Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 93%
+2024-03-06T01:10:32.758Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 95%
+2024-03-06T01:10:32.760Z [Modules] Streaming discord_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 100%
+2024-03-06T01:10:32.762Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-03-06T01:10:32.762Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip
+2024-03-06T01:10:32.955Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 1%
+2024-03-06T01:10:32.963Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 2%
+2024-03-06T01:10:32.970Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 3%
+2024-03-06T01:10:32.976Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 4%
+2024-03-06T01:10:32.986Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 5%
+2024-03-06T01:10:32.992Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 6%
+2024-03-06T01:10:33.015Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 7%
+2024-03-06T01:10:33.024Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 8%
+2024-03-06T01:10:33.047Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 9%
+2024-03-06T01:10:33.057Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 10%
+2024-03-06T01:10:33.063Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 11%
+2024-03-06T01:10:33.071Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 12%
+2024-03-06T01:10:33.078Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 13%
+2024-03-06T01:10:33.093Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 14%
+2024-03-06T01:10:33.100Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 15%
+2024-03-06T01:10:33.123Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 16%
+2024-03-06T01:10:33.139Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 17%
+2024-03-06T01:10:33.145Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 18%
+2024-03-06T01:10:33.151Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 19%
+2024-03-06T01:10:33.161Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 20%
+2024-03-06T01:10:33.173Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 21%
+2024-03-06T01:10:33.179Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 22%
+2024-03-06T01:10:33.196Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 23%
+2024-03-06T01:10:33.206Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 24%
+2024-03-06T01:10:33.217Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 25%
+2024-03-06T01:10:33.223Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 26%
+2024-03-06T01:10:33.230Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 27%
+2024-03-06T01:10:33.239Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 28%
+2024-03-06T01:10:33.253Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 29%
+2024-03-06T01:10:33.263Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 30%
+2024-03-06T01:10:33.274Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 31%
+2024-03-06T01:10:33.281Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 32%
+2024-03-06T01:10:33.292Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 33%
+2024-03-06T01:10:33.308Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 34%
+2024-03-06T01:10:33.313Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 35%
+2024-03-06T01:10:33.320Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 36%
+2024-03-06T01:10:33.327Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 37%
+2024-03-06T01:10:33.347Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 38%
+2024-03-06T01:10:33.352Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 39%
+2024-03-06T01:10:33.366Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 40%
+2024-03-06T01:10:33.384Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 41%
+2024-03-06T01:10:33.392Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 42%
+2024-03-06T01:10:33.399Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 43%
+2024-03-06T01:10:33.407Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 44%
+2024-03-06T01:10:33.413Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 45%
+2024-03-06T01:10:33.423Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 46%
+2024-03-06T01:10:33.429Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 47%
+2024-03-06T01:10:33.496Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 48%
+2024-03-06T01:10:33.533Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 49%
+2024-03-06T01:10:33.537Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 50%
+2024-03-06T01:10:33.544Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 51%
+2024-03-06T01:10:33.553Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 52%
+2024-03-06T01:10:33.559Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 53%
+2024-03-06T01:10:33.566Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 54%
+2024-03-06T01:10:33.586Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 55%
+2024-03-06T01:10:33.607Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 56%
+2024-03-06T01:10:33.632Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 57%
+2024-03-06T01:10:33.640Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 58%
+2024-03-06T01:10:33.645Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 59%
+2024-03-06T01:10:33.652Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 60%
+2024-03-06T01:10:33.661Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 61%
+2024-03-06T01:10:33.670Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 62%
+2024-03-06T01:10:33.690Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 63%
+2024-03-06T01:10:33.698Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 64%
+2024-03-06T01:10:33.710Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 65%
+2024-03-06T01:10:33.716Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 66%
+2024-03-06T01:10:33.724Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 67%
+2024-03-06T01:10:33.729Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 68%
+2024-03-06T01:10:33.745Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 69%
+2024-03-06T01:10:33.755Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 70%
+2024-03-06T01:10:33.767Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 71%
+2024-03-06T01:10:33.775Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 72%
+2024-03-06T01:10:33.783Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 73%
+2024-03-06T01:10:33.791Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 74%
+2024-03-06T01:10:33.811Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 75%
+2024-03-06T01:10:33.817Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 76%
+2024-03-06T01:10:33.828Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 77%
+2024-03-06T01:10:33.837Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 78%
+2024-03-06T01:10:33.848Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 79%
+2024-03-06T01:10:33.856Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 80%
+2024-03-06T01:10:33.875Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 81%
+2024-03-06T01:10:33.882Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 82%
+2024-03-06T01:10:33.889Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 83%
+2024-03-06T01:10:33.895Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 84%
+2024-03-06T01:10:33.913Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 85%
+2024-03-06T01:10:33.919Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 86%
+2024-03-06T01:10:33.924Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 87%
+2024-03-06T01:10:33.940Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 88%
+2024-03-06T01:10:33.953Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 89%
+2024-03-06T01:10:33.960Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 90%
+2024-03-06T01:10:33.968Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 91%
+2024-03-06T01:10:33.977Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 92%
+2024-03-06T01:10:33.984Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 93%
+2024-03-06T01:10:33.997Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 94%
+2024-03-06T01:10:34.003Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 95%
+2024-03-06T01:10:34.025Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 96%
+2024-03-06T01:10:34.031Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 97%
+2024-03-06T01:10:34.040Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 98%
+2024-03-06T01:10:34.048Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 99%
+2024-03-06T01:10:34.054Z [Modules] Streaming discord_voice@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 100%
+2024-03-06T01:10:34.058Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2024-03-06T01:10:34.058Z [Modules] Installing updates...
+2024-03-06T01:10:34.058Z [Modules] Installing discord_desktop_core@1 from /home/xneymo/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip
+2024-03-06T01:10:34.200Z [Modules] Installing discord_erlpack@1 from /home/xneymo/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip
+2024-03-06T01:10:34.328Z [Modules] Installing discord_spellcheck@1 from /home/xneymo/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip
+2024-03-06T01:10:35.882Z [Modules] Installing discord_utils@1 from /home/xneymo/.config/discord/0.0.43/modules/pending/discord_utils-1.zip
+2024-03-06T01:10:36.127Z [Modules] Installing discord_voice@1 from /home/xneymo/.config/discord/0.0.43/modules/pending/discord_voice-1.zip
+2024-03-06T01:10:37.273Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2024-03-06T01:10:37.273Z [Modules] Checking for host updates.
+2024-03-06T01:10:37.672Z [Modules] Host is up to date.
+2024-03-06T01:10:37.672Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-03-06T01:10:37.677Z [Modules] No module updates available.
+2024-03-06T01:10:42.190Z [Modules] Starting to install discord_krisp...
+2024-03-06T01:10:42.190Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-03-06T01:10:42.191Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip
+2024-03-06T01:10:42.207Z [Modules] Starting to install discord_game_utils...
+2024-03-06T01:10:42.461Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 1%
+2024-03-06T01:10:42.489Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 2%
+2024-03-06T01:10:42.492Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 3%
+2024-03-06T01:10:42.495Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 4%
+2024-03-06T01:10:42.498Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 5%
+2024-03-06T01:10:42.500Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 6%
+2024-03-06T01:10:42.502Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 7%
+2024-03-06T01:10:42.556Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 8%
+2024-03-06T01:10:42.563Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 9%
+2024-03-06T01:10:42.573Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 10%
+2024-03-06T01:10:42.582Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 11%
+2024-03-06T01:10:42.590Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 12%
+2024-03-06T01:10:42.598Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 13%
+2024-03-06T01:10:42.607Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 14%
+2024-03-06T01:10:42.612Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 15%
+2024-03-06T01:10:42.623Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 16%
+2024-03-06T01:10:42.659Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 17%
+2024-03-06T01:10:42.667Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 18%
+2024-03-06T01:10:42.675Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 19%
+2024-03-06T01:10:42.684Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 20%
+2024-03-06T01:10:42.692Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 21%
+2024-03-06T01:10:42.701Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 22%
+2024-03-06T01:10:42.711Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 23%
+2024-03-06T01:10:42.720Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 24%
+2024-03-06T01:10:42.728Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 25%
+2024-03-06T01:10:42.754Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 26%
+2024-03-06T01:10:42.760Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 27%
+2024-03-06T01:10:42.790Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 28%
+2024-03-06T01:10:42.796Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 29%
+2024-03-06T01:10:42.806Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 30%
+2024-03-06T01:10:42.811Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 31%
+2024-03-06T01:10:42.820Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 32%
+2024-03-06T01:10:42.838Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 33%
+2024-03-06T01:10:42.840Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 34%
+2024-03-06T01:10:42.893Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 35%
+2024-03-06T01:10:42.902Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 36%
+2024-03-06T01:10:42.909Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 37%
+2024-03-06T01:10:42.916Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 38%
+2024-03-06T01:10:42.924Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 39%
+2024-03-06T01:10:42.938Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 40%
+2024-03-06T01:10:42.943Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 41%
+2024-03-06T01:10:42.969Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 42%
+2024-03-06T01:10:43.013Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 43%
+2024-03-06T01:10:43.020Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 44%
+2024-03-06T01:10:43.031Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 45%
+2024-03-06T01:10:43.036Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 46%
+2024-03-06T01:10:43.043Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 47%
+2024-03-06T01:10:43.053Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 48%
+2024-03-06T01:10:43.089Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 49%
+2024-03-06T01:10:43.090Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 50%
+2024-03-06T01:10:43.091Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 51%
+2024-03-06T01:10:43.132Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 52%
+2024-03-06T01:10:43.138Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 53%
+2024-03-06T01:10:43.150Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 54%
+2024-03-06T01:10:43.155Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 55%
+2024-03-06T01:10:43.164Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 56%
+2024-03-06T01:10:43.182Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 57%
+2024-03-06T01:10:43.188Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 58%
+2024-03-06T01:10:43.196Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 59%
+2024-03-06T01:10:43.246Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 60%
+2024-03-06T01:10:43.252Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 61%
+2024-03-06T01:10:43.261Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 62%
+2024-03-06T01:10:43.267Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 63%
+2024-03-06T01:10:43.278Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 64%
+2024-03-06T01:10:43.308Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 65%
+2024-03-06T01:10:43.313Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 66%
+2024-03-06T01:10:43.319Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 67%
+2024-03-06T01:10:43.323Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 68%
+2024-03-06T01:10:43.340Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 69%
+2024-03-06T01:10:43.351Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 70%
+2024-03-06T01:10:43.352Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 71%
+2024-03-06T01:10:43.388Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 72%
+2024-03-06T01:10:43.401Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 73%
+2024-03-06T01:10:43.406Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 74%
+2024-03-06T01:10:43.412Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 75%
+2024-03-06T01:10:43.421Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 76%
+2024-03-06T01:10:43.431Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 77%
+2024-03-06T01:10:43.469Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 78%
+2024-03-06T01:10:43.484Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 79%
+2024-03-06T01:10:43.489Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 80%
+2024-03-06T01:10:43.495Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 81%
+2024-03-06T01:10:43.505Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 82%
+2024-03-06T01:10:43.513Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 83%
+2024-03-06T01:10:43.519Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 84%
+2024-03-06T01:10:43.526Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 85%
+2024-03-06T01:10:43.571Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 86%
+2024-03-06T01:10:43.574Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 87%
+2024-03-06T01:10:43.587Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 88%
+2024-03-06T01:10:43.594Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 89%
+2024-03-06T01:10:43.596Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 90%
+2024-03-06T01:10:43.608Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 91%
+2024-03-06T01:10:43.615Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 92%
+2024-03-06T01:10:43.635Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 93%
+2024-03-06T01:10:43.643Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 94%
+2024-03-06T01:10:43.654Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 95%
+2024-03-06T01:10:43.667Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 96%
+2024-03-06T01:10:43.679Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 97%
+2024-03-06T01:10:43.697Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 98%
+2024-03-06T01:10:43.705Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 99%
+2024-03-06T01:10:43.718Z [Modules] Streaming discord_krisp@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 100%
+2024-03-06T01:10:43.721Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-03-06T01:10:43.721Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip
+2024-03-06T01:10:43.721Z [Modules] Installing discord_krisp@1 from /home/xneymo/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip
+2024-03-06T01:10:43.941Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 2%
+2024-03-06T01:10:43.943Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 5%
+2024-03-06T01:10:43.944Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 9%
+2024-03-06T01:10:43.944Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 10%
+2024-03-06T01:10:43.946Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 11%
+2024-03-06T01:10:43.947Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 12%
+2024-03-06T01:10:43.948Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 15%
+2024-03-06T01:10:43.951Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 18%
+2024-03-06T01:10:43.954Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 21%
+2024-03-06T01:10:43.956Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 23%
+2024-03-06T01:10:43.957Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 25%
+2024-03-06T01:10:43.959Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 28%
+2024-03-06T01:10:43.961Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 31%
+2024-03-06T01:10:43.963Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 33%
+2024-03-06T01:10:43.965Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 36%
+2024-03-06T01:10:43.967Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 38%
+2024-03-06T01:10:43.970Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 40%
+2024-03-06T01:10:43.972Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 43%
+2024-03-06T01:10:43.974Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 45%
+2024-03-06T01:10:43.976Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 47%
+2024-03-06T01:10:43.977Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 49%
+2024-03-06T01:10:43.981Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 54%
+2024-03-06T01:10:43.982Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 55%
+2024-03-06T01:10:43.984Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 58%
+2024-03-06T01:10:43.987Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 60%
+2024-03-06T01:10:43.989Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 63%
+2024-03-06T01:10:43.989Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 64%
+2024-03-06T01:10:43.997Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 66%
+2024-03-06T01:10:43.998Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 69%
+2024-03-06T01:10:44.000Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 70%
+2024-03-06T01:10:44.002Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 73%
+2024-03-06T01:10:44.003Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 75%
+2024-03-06T01:10:44.006Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 78%
+2024-03-06T01:10:44.011Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 81%
+2024-03-06T01:10:44.013Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 82%
+2024-03-06T01:10:44.014Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 84%
+2024-03-06T01:10:44.015Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 85%
+2024-03-06T01:10:44.017Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 86%
+2024-03-06T01:10:44.023Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 89%
+2024-03-06T01:10:44.024Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 90%
+2024-03-06T01:10:44.025Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 93%
+2024-03-06T01:10:44.037Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 96%
+2024-03-06T01:10:44.039Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 97%
+2024-03-06T01:10:44.045Z [Modules] Streaming discord_game_utils@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 100%
+2024-03-06T01:10:44.047Z [Modules] Finished module downloads. [success: 2] [failure: 0]
+2024-03-06T01:10:44.193Z [Modules] Checking for host updates.
+2024-03-06T01:10:44.306Z [Modules] Host is up to date.
+2024-03-06T01:10:44.306Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-03-06T01:10:44.311Z [Modules] No module updates available.
+2024-03-06T01:10:44.426Z [Modules] Starting to install discord_rpc...
+2024-03-06T01:10:44.427Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-03-06T01:10:44.427Z [Modules] Streaming discord_rpc@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_rpc-1.zip
+2024-03-06T01:10:44.609Z [Modules] Streaming discord_rpc@1 to /home/xneymo/.config/discord/0.0.43/modules/pending/discord_rpc-1.zip: 100%
+2024-03-06T01:10:44.611Z [Modules] Finished module downloads. [success: 1] [failure: 0]
+2024-03-06T01:10:44.837Z [Modules] Installing discord_game_utils@1 from /home/xneymo/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip
+2024-03-06T01:10:45.054Z [Modules] Installing discord_rpc@1 from /home/xneymo/.config/discord/0.0.43/modules/pending/discord_rpc-1.zip
+2024-03-06T01:10:45.088Z [Modules] Finished module installations. [success: 3] [failure: 0]

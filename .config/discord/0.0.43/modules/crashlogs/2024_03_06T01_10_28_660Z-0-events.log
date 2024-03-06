@@ -1,0 +1,14 @@
+2024-03-06T01:10:28.672Z 0: 
+
+----------------------------------------------
+2024-03-06T01:10:28.704Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.43"}, modulepath: /home/xneymo/.config/discord/0.0.43/modules
+2024-03-06T01:10:28.710Z 2: ✅ webContents.created web1 ""
+2024-03-06T01:10:28.712Z 3: ✅ window.created win1 "discord"
+2024-03-06T01:10:29.183Z 4: ✅ webContents.did-finish-load web1
+2024-03-06T01:10:37.828Z 5: ✅ webContents.created web2 ""
+2024-03-06T01:10:37.845Z 6: ✅ window.created win2 "Discord"
+2024-03-06T01:10:42.768Z 7: ✅ webContents.did-finish-load web2
+2024-03-06T01:10:42.867Z 8: window.close win1
+2024-03-06T01:10:42.888Z 9: webContents.destroyed web1
+2024-03-06T01:10:42.890Z 10: window.closed win1
+2024-03-06T01:13:36.507Z 11: window.close win2

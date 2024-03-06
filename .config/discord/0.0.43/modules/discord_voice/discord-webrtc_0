@@ -1,0 +1,260 @@
+[2024-03-05 20:10:42.091] [61918] (engine.cpp:541): Created native Engine, time: Tue Mar  5 20:10:42 2024 -05, logPath: /home/xneymo/.config/discord/0.0.43/modules/discord_voice/, logLevel: 2
+[2024-03-05 20:10:42.094] [61918] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2024-03-05 20:10:42.094] [61918] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2024-03-05 20:10:42.094] [61918] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-03-05 20:10:42.095] [61918] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:143): current platform is Linux
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:991): PlatformAudioLayer
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:344): AttachAudioBuffer
+[2024-03-05 20:10:42.095] [61918] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2024-03-05 20:10:42.095] [61918] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2024-03-05 20:10:42.095] [61918] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2024-03-05 20:10:42.095] [61918] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:354): ActiveAudioLayer
+[2024-03-05 20:10:42.095] [61918] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:143): current platform is Linux
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:991): PlatformAudioLayer
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:344): AttachAudioBuffer
+[2024-03-05 20:10:42.095] [61918] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2024-03-05 20:10:42.095] [61918] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2024-03-05 20:10:42.095] [61918] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2024-03-05 20:10:42.095] [61918] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2024-03-05 20:10:42.095] [61918] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2024-03-05 20:10:42.095] [61918] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2024-03-05 20:10:42.095] [61918] (audio_engine.cpp:400): Creating audio engine: standard
+[2024-03-05 20:10:42.095] [61918] (audio_device_impl.cc:364): Init
+[2024-03-05 20:10:42.132] [61918] (audio_device_impl.cc:364): Init
+[2024-03-05 20:10:42.134] [61918] (audio_coding.cpp:149): Using software Opus decoder
+[2024-03-05 20:10:42.134] [61918] (audio_coding.cpp:166): Using software Opus encoder
+[2024-03-05 20:10:42.134] [61918] (audio_device_impl.cc:895): RegisterAudioCallback
+[2024-03-05 20:10:42.134] [61918] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2024-03-05 20:10:42.134] [61918] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-03-05 20:10:42.134] [61918] (audio_device_impl.cc:895): RegisterAudioCallback
+[2024-03-05 20:10:42.134] [61918] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-03-05 20:10:42.134] [61918] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-03-05 20:10:42.134] [61918] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-03-05 20:10:42.134] [61918] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-03-05 20:10:42.135] [61918] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-03-05 20:10:42.135] [61918] (audio_device_impl.cc:573): output: 1
+[2024-03-05 20:10:42.135] [61918] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-03-05 20:10:42.135] [61918] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-03-05 20:10:42.135] [61918] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-03-05 20:10:42.136] [61918] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-03-05 20:10:42.136] [61918] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-03-05 20:10:42.136] [61918] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-03-05 20:10:42.136] [61918] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-03-05 20:10:42.136] [61918] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-03-05 20:10:42.136] [61918] (audio_device_impl.cc:619): output: 1
+[2024-03-05 20:10:42.136] [61918] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-03-05 20:10:42.136] [61918] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-03-05 20:10:42.136] [61918] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2024-03-05 20:10:42.136] [61918] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2024-03-05 20:10:42.136] [61918] (audio_device_impl.cc:914): output: 0
+[2024-03-05 20:10:42.136] [61918] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-03-05 20:10:42.138] [61918] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2024-03-05 20:10:42.138] [61918] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2024-03-05 20:10:42.138] [61918] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-03-05 20:10:42.138] [61918] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2024-03-05 20:10:42.138] [61918] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2024-03-05 20:10:42.138] [61918] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2024-03-05 20:10:42.138] [61918] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2024-03-05 20:10:42.138] [61918] (captured_audio_processor.cpp:115): SetNoiseCancellation: 0
+[2024-03-05 20:10:42.138] [61918] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-03-05 20:10:42.139] [61918] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:248): *** OnDevicesChanged:
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:249): * audioInput:
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:254): * audioOutput:
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:248): *** OnDevicesChanged:
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:249): * audioInput:
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:254): * audioOutput:
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:248): *** OnDevicesChanged:
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:249): * audioInput:
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:254): * audioOutput:
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-03-05 20:10:42.142] [61918] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-03-05 20:10:42.188] [61918] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-03-05 20:10:42.188] [61918] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-03-05 20:10:42.188] [61918] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-03-05 20:10:42.188] [61918] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-03-05 20:10:42.188] [61918] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-03-05 20:10:42.188] [61918] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-03-05 20:10:42.189] [61918] (audio_device_impl.cc:573): output: 1
+[2024-03-05 20:10:42.189] [61918] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-03-05 20:10:42.189] [61918] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-03-05 20:10:42.189] [61918] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-03-05 20:10:42.189] [61918] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-03-05 20:10:42.189] [61918] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-03-05 20:10:42.189] [61918] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-03-05 20:10:42.189] [61918] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-03-05 20:10:42.189] [61918] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-03-05 20:10:42.189] [61918] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-03-05 20:10:42.190] [61918] (audio_device_impl.cc:619): output: 1
+[2024-03-05 20:10:42.190] [61918] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-03-05 20:10:42.190] [61918] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-03-05 20:10:42.190] [61918] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-03-05 20:10:42.190] [61918] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-03-05 20:10:42.190] [61918] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-03-05 20:10:42.195] [61883] (discord.cpp:755): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 272351, Version Hash: d6a6dfe03fe183fef6c961107c976f1452e8b3c1"]
+[2024-03-05 20:10:42.357] [61883] (discord.cpp:755): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2024-03-05 20:10:42.629] [61883] (discord.cpp:755): JS console: ["%c[default]","[NATIVE INFO] host 0.0.43, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, build: null"]
+[2024-03-05 20:10:42.749] [61918] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-03-05 20:10:42.749] [61918] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-03-05 20:10:42.749] [61918] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-03-05 20:10:42.749] [61918] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-03-05 20:10:42.749] [61918] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-03-05 20:10:42.749] [61918] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-03-05 20:10:42.751] [61918] (audio_device_impl.cc:573): output: 1
+[2024-03-05 20:10:42.751] [61918] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-03-05 20:10:42.751] [61918] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-03-05 20:10:42.751] [61918] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-03-05 20:10:42.751] [61918] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-03-05 20:10:42.751] [61918] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-03-05 20:10:42.751] [61918] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-03-05 20:10:42.751] [61918] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-03-05 20:10:42.751] [61918] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-03-05 20:10:42.752] [61918] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-03-05 20:10:42.752] [61918] (audio_device_impl.cc:619): output: 1
+[2024-03-05 20:10:42.752] [61918] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-03-05 20:10:42.752] [61918] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-03-05 20:10:42.762] [61883] (discord.cpp:755): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2024-03-05 20:10:43.003] [61883] (discord.cpp:755): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2024-03-05 20:10:44.307] [61883] (discord.cpp:755): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2024-03-05 20:10:44.855] [61883] (discord.cpp:755): JS console: ["Initializing krisp module"]
+[2024-03-05 20:10:45.652] [61883] (discord.cpp:755): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2024-03-05 20:10:45.676] [61883] (discord.cpp:755): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2024-03-05 20:10:49.624] [61883] (discord.cpp:755): JS console: ["%c[RPCServer:WSS]","Socket Message: 3","[object Object]"]
+[2024-03-05 20:10:49.659] [61883] (discord.cpp:755): JS console: ["%c[RPCServer:WSS]","Socket Emit: 3","[object Object]"]
+[2024-03-05 20:10:49.812] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2024-03-05 20:10:50.095] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[283ms] got hello, auth timeout=132364ms"]
+[2024-03-05 20:10:50.245] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[434ms] connected, handshaking with fingerprint: Agk7EETbEoPO2GrdK9BWm3rUYFRhrfVtYL6wYtDQ_Sc"]
+[2024-03-05 20:10:50.323] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[511ms] computed nonce proof"]
+[2024-03-05 20:10:50.407] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[595ms] handshake complete awaiting remote auth."]
+[2024-03-05 20:11:05.417] [61883] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2024-03-05 20:11:07.580] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:07.581] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:07.610] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:07.730] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:07.732] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:08.468] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:09.724] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:18.212] [61883] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2024-03-05 20:11:18.781] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:18.875] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:18.875] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:18.987] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:18.991] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:19.950] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:20.740] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:25.273] [61883] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2024-03-05 20:11:26.184] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:26.278] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:26.278] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:26.496] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:26.500] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:26.878] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:27.617] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:46.088] [61883] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2024-03-05 20:11:46.733] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:46.861] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:46.861] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:46.974] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:46.978] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:47.655] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:48.639] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:53.861] [61883] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2024-03-05 20:11:54.410] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:54.498] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:54.498] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:54.989] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:54.993] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:55.442] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:56.644] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:56.813] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:11:56.816] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:09.987] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:10.421] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:10.554] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:10.576] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:14.365] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:14.749] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:24.642] [61883] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2024-03-05 20:12:25.262] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:25.486] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:25.487] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:25.605] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:25.609] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:26.059] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:26.731] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:31.735] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:32.035] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:32.036] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:32.158] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:32.162] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:32.645] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:33.803] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:33.852] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:33.855] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:42.124] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:42.953] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:43.381] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:43.381] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:43.384] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:47.465] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:12:51.936] [61883] (discord.cpp:755): JS console: ["[PostMessageTransport] Protocol error: event data should be an Array!"]
+[2024-03-05 20:13:02.513] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[132666ms] disconnected, code: 4003 Handshake Timeout"]
+[2024-03-05 20:13:02.514] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2024-03-05 20:13:04.717] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[134906ms] cleaning up"]
+[2024-03-05 20:13:04.722] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2024-03-05 20:13:04.965] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[245ms] got hello, auth timeout=120672ms"]
+[2024-03-05 20:13:05.243] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[523ms] connected, handshaking with fingerprint: Rmf0JGxX6CUS8OnNdFcYbZTlWPSaqag6HiahRe7SEYQ"]
+[2024-03-05 20:13:05.340] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[621ms] computed nonce proof"]
+[2024-03-05 20:13:05.419] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[700ms] handshake complete awaiting remote auth."]
+[2024-03-05 20:13:30.222] [61883] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2024-03-05 20:13:31.257] [61883] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching LOGIN_SUCCESS"]
+[2024-03-05 20:13:31.317] [61883] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /app"]
+[2024-03-05 20:13:31.355] [61883] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-03-05 20:13:31.362] [61883] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[26643ms] cleaning up"]
+[2024-03-05 20:13:31.706] [61883] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 350 ms"]
+[2024-03-05 20:13:33.031] [61883] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 1675ms, as 5d6398909ae9d6f752758ebffe6b97e5"]
+[2024-03-05 20:13:33.094] [61883] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-03-05 20:13:33.101] [61883] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 592417882592247849, database: undefined)"]
+[2024-03-05 20:13:33.143] [61883] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-03-05 20:13:33.244] [61883] (discord.cpp:755): JS console: ["%c[GatewaySocket]","Dispatched 1 messages in 210ms"]
+[2024-03-05 20:13:33.248] [61883] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 1892ms"]
+[2024-03-05 20:13:43.209] [61883] (discord.cpp:755): JS console: ["%c[ReadStateStore]","Deleting ReadState","684703665537155075","0","[object Object]"]
+[2024-03-05 20:13:43.221] [61883] (discord.cpp:755): JS console: ["%c[ReadStateStore]","Deleting ReadState","684703665537155076","0","[object Object]"]
+[2024-03-05 20:13:43.223] [61883] (discord.cpp:755): JS console: ["%c[ReadStateStore]","Deleting ReadState","684704136578465792","0","[object Object]"]
+[2024-03-05 20:13:43.224] [61883] (discord.cpp:755): JS console: ["%c[ReadStateStore]","Deleting ReadState","699981192740733009","0","[object Object]"]
+[2024-03-05 20:13:43.225] [61883] (discord.cpp:755): JS console: ["%c[ReadStateStore]","Deleting ReadState","734686258273452072","0","[object Object]"]
+[2024-03-05 20:13:43.229] [61883] (discord.cpp:755): JS console: ["%c[ReadStateStore]","Deleting ReadState","1167126772660322356","0","[object Object]"]
+[2024-03-05 20:13:43.231] [61883] (discord.cpp:755): JS console: ["%c[ReadStateStore]","Deleting ReadState","1176297170421416026","0","[object Object]"]
+[2024-03-05 20:14:01.808] [62884] (region_latency_tester.cpp:72): Sending 5 latency test pings to region atlanta
+[2024-03-05 20:14:01.808] [62884] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-east
+[2024-03-05 20:14:01.808] [62884] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2024-03-05 20:14:01.808] [62884] (region_latency_tester.cpp:72): Sending 5 latency test pings to region newark
+[2024-03-05 20:14:01.808] [62884] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2024-03-05 20:14:01.964] [62884] (region_latency_tester.cpp:283): Average RTT for region atlanta is 151
+[2024-03-05 20:14:01.964] [62884] (region_latency_tester.cpp:283): Average RTT for region us-east is 151
+[2024-03-05 20:14:01.964] [62884] (region_latency_tester.cpp:283): Average RTT for region us-south is 151
+[2024-03-05 20:14:01.964] [62884] (region_latency_tester.cpp:283): Average RTT for region newark is 151
+[2024-03-05 20:14:01.964] [62884] (region_latency_tester.cpp:283): Average RTT for region us-central is 151

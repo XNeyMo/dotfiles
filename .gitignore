@@ -2,3 +2,6 @@
 .config/gh
 .config/pulse
 .config/systemd
+.config/yay
+.config/xfce4
+.config/gtk-3.0

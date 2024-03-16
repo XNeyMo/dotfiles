@@ -3,6 +3,7 @@
 .config/pulse
 .config/systemd
 .config/yay
+.config/paru
 .config/xfce4
 .config/gtk-3.0
 .config/discord
@@ -10,5 +11,4 @@
 .config/kingsoft
 .config/Kingsoft
 .config/obsidian
-.config/mimeapps.list
 .config/Notion

@@ -141,3 +141,6 @@ alias musica="ncmpcpp"
 
 alias ls='lsd -a --group-directories-first'
 alias ll='lsd -la --group-directories-first'
+
+# Turso
+export PATH="/home/xneymo/.turso:$PATH"

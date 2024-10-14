@@ -4,6 +4,7 @@
 
 hyprland
 
+grim?
 dunst?
 dolphin?
 wofi?
@@ -17,8 +18,19 @@ telegram
 alacritty
 responsively
 
+zip | unzip
+npm | bun
+
+bluemail
+
+brightnessctl
+pulseaudio
+onedrive
+
+pamixer
+docker
+pavucontrol
+
 ## Fonts
 
 - Cascadia Code from https://github.com/microsoft/cascadia-code/releases
-
-yes
